@@ -4,24 +4,20 @@
  * @format
  */
 
-import React from 'react';
 import {
   SafeAreaView,
-  StyleSheet,
-  Pressable,
-  View,
-  Text,
-  ScrollView,
-  TextInput,
-  Button
+  StyleSheet
 } from 'react-native';
+import ToDoForm from './ToDoForm';
+import ToDoList from './ToDoList';
 
 
 function App() {
   return (
-    <View>
-      
-    </View>
+    <SafeAreaView>
+      <ToDoList/>
+      <ToDoForm/>
+    </SafeAreaView>
   );
 }
 
